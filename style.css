@@ -658,6 +658,9 @@
           top: 140px;
           left: 168px;
       }
+      .con-1 .left .left-imgs .iphone {
+        display: none;
+      }
 
       .con-1 .left .left-imgs .iphonelan {
           display: block;
