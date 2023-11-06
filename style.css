@@ -1,0 +1,955 @@
+  @import url('https://fonts.googleapis.com/css2?family=Epilogue:wght@400;500&display=swap');
+
+
+  * {
+      margin: 0;
+      padding: 0;
+      box-sizing: border-box;
+  }
+
+  body {
+    background: #FAF8F6;
+    overflow-x: hidden;
+  }
+
+  main {
+      width: 82.6%;
+      margin: 40px auto auto auto;
+  }
+
+  /* header begins */
+  header {
+      display: flex;
+      justify-content: space-between;
+  }
+
+  header h1 {
+      color: var(--Dark-Blue, #172339);
+      font-family: Epilogue;
+      font-size: 32px;
+      font-style: normal;
+      font-weight: 700;
+      line-height: 32px;
+      /* 100% */
+      letter-spacing: -0.444px;
+      margin-top: 10px;
+  }
+
+  header button {
+      width: 219px;
+      height: 56px;
+      flex-shrink: 0;
+      color: var(--Dark-Blue, #172339);
+      font-family: Epilogue;
+      font-size: 16px;
+      font-style: normal;
+      font-weight: 700;
+      line-height: 32px;
+      letter-spacing: -0.16px;
+      border-radius: 6px;
+      cursor: pointer;
+  }
+
+  header button:hover {
+      border-radius: 6px;
+      border: 1px solid var(--Dark-Blue, #172339);
+      background: var(--Dark-Blue, #172339);
+      color: white;
+  }
+  /* header ends */
+
+
+  /* con-1 begins */
+  .con-1 {
+      display: flex;
+      justify-content: space-between;
+      margin-top: 60px;
+  }
+
+  .con-1 .left {
+      width: 65%;
+      display: flex;
+  }
+
+  .con-1 .left .left-h1 {
+      width: 633px;
+      color: #172339;
+      font-feature-settings: 'clig' off, 'liga' off;
+      font-family: Epilogue;
+      font-size: 72px;
+      font-style: normal;
+      font-weight: 400;
+      line-height: 78px;
+      letter-spacing: -1px;
+      margin-top: 98px;
+  }
+
+  .con-1 .left .left-p {
+      width: 350px;
+      color: var(--Grey, #49566D);
+      font-feature-settings: 'clig' off, 'liga' off;
+      margin-top: 40px;
+      /* Body */
+      font-family: Epilogue;
+      font-size: 18px;
+      font-style: normal;
+      font-weight: 400;
+      line-height: 30px;
+      letter-spacing: 0.1px;
+  }
+
+
+  .con-1 .left button {
+      width: 256px;
+      height: 61px;
+      flex-shrink: 0;
+      border-radius: 6px;
+      background: var(--Dark-Blue, #172339);
+      color: var(--Cream-White, #FAF8F6);
+      font-family: Epilogue;
+      font-size: 18px;
+      font-style: normal;
+      font-weight: 700;
+      line-height: 32px;
+      letter-spacing: -0.18px;
+      margin-top: 40px;
+      cursor: pointer;
+  }
+
+  .con-1 .left button:hover {
+      border-radius: 6px;
+      background: linear-gradient(135deg, #A060FF 0%, #CB30E3 49.21%, #FFA84E 100%);
+  }
+
+  .con-1 .left .left-imgs .curved-line1 {
+      width: 268px;
+      height: 36px;
+      flex-shrink: 0;
+      position: absolute;
+      left: 25.5rem;
+      top: 12.3rem;
+
+  }
+
+  .con-1 .left .left-imgs .iphone {
+      width: 340px;
+      height: 600px;
+      flex-shrink: 0;
+      position: absolute;
+      right: 26.7rem;
+      z-index: -2;
+  }
+
+  .con-1 .left .left-imgs .iphonelan {
+    display: none;
+  }
+
+  .con-1 .right {
+      width: 20%;
+      margin-left: 19rem;
+      margin-top: 2rem;
+  }
+
+  .con-1 .right .com,
+  .lan,
+  .lead {
+      width: 190px;
+      color: var(--Dark-Blue, #172339);
+      font-family: Epilogue;
+      font-size: 48px;
+      font-style: normal;
+      font-weight: 700;
+      line-height: 56px;
+      letter-spacing: -0.5px;
+      margin-top: 4rem;
+  }
+
+  .con-1 .right label {
+      width: 190px;
+      color: var(--Grey, #49566D);
+      font-feature-settings: 'clig' off, 'liga' off;
+      /* Heading S */
+      font-family: Epilogue;
+      font-size: 16px;
+      font-style: normal;
+      font-weight: 400;
+      line-height: 26px;
+      letter-spacing: 2.5px;
+  }
+
+  /* con-1 ends */
+
+  /* con-2 begins */
+  .con-2 {
+      width: 83%;
+      height: 545px;
+      flex-shrink: 0;
+      display: flex;
+      justify-content: space-between;
+      border-radius: 15px;
+      background: var(--Dark-Blue, #172339);
+      margin-top: 20rem;
+      position: absolute;
+      z-index: -1;
+  }
+
+  .con-2 .man {
+      width: 50%;
+      display: flex;
+  }
+
+  .con-2 .man .man-img {
+      width: 359.81px;
+      height: 589.557px;
+      flex-shrink: 0;
+      position: absolute;
+      bottom: 0px;
+      left: 95px;
+  }
+
+  .con-2 .man .blur {
+      position: absolute;
+      left: 0;
+      top: 70px;
+      z-index: -1;
+  }
+
+
+
+  .con-2 .man .curved2 {
+      width: 64.049px;
+      height: 52px;
+      flex-shrink: 0;
+      position: absolute;
+      left: 31rem;
+      top: 10rem;
+  }
+
+  .con-2 .text {
+      width: 47%;
+      flex-shrink: 0;
+      margin-top: 78px;
+      margin-right: -46px;
+  }
+
+  .con-2 .text .text-h1 {
+      color: #FAF8F6;
+      font-feature-settings: 'clig' off, 'liga' off;
+      font-family: Epilogue;
+      font-size: 48px;
+      font-style: normal;
+      font-weight: 400;
+      line-height: 56px;
+      letter-spacing: -0.5px;
+  }
+
+  .con-2 .text .text-h1 span {
+      color: #FAF8F6;
+      font-feature-settings: 'clig' off, 'liga' off;
+      /* Heading L */
+      font-family: Epilogue;
+      font-size: 48px;
+      font-style: normal;
+      font-weight: 700;
+      line-height: 56px;
+      letter-spacing: -0.5px;
+  }
+
+  .con-2 .text .text-p {
+      width: 380px;
+      color: var(--Cream, #F3EDE7);
+      font-feature-settings: 'clig' off, 'liga' off;
+      /* Quote */
+      font-family: Epilogue;
+      font-size: 20px;
+      font-style: normal;
+      font-weight: 400;
+      line-height: 35px;
+      letter-spacing: 0.1px;
+      margin-top: 40px;
+  }
+
+  .con-2 .text .text-name1 {
+      color: var(--Cream-White, #FAF8F6);
+      font-feature-settings: 'clig' off, 'liga' off;
+      /* Heading M */
+      font-family: Epilogue;
+      font-size: 18px;
+      font-style: normal;
+      font-weight: 700;
+      line-height: 32px;
+      letter-spacing: -0.18px;
+      margin-top: 40px;
+  }
+
+  .con-2 .text .text-name2 {
+      width: 190px;
+      color: var(--Cream, #F3EDE7);
+      font-feature-settings: 'clig' off, 'liga' off;
+      /* Heading S */
+      font-family: Epilogue;
+      font-size: 16px;
+      font-style: normal;
+      font-weight: 400;
+      line-height: 26px;
+      letter-spacing: 2.5px;
+  }
+
+  /* con-2 ends */
+
+
+  /* con-3 begins */
+  .con-3 {
+      width: 100%;
+      height: 464px;
+      flex-shrink: 0;
+      background: var(--Cream, #F3EDE7);
+      margin-top: 36.5rem;
+      position: absolute;
+      z-index: -3;
+  }
+
+  footer {
+      width: 83%;
+      height: 32px;
+      flex-shrink: 0;
+      display: flex;
+      justify-content: space-between;
+      position: absolute;
+      top: 99.9rem;
+  }
+
+  footer .suite {
+      color: var(--Dark-Blue, #172339);
+      font-family: Epilogue;
+      font-size: 32px;
+      font-style: normal;
+      font-weight: 700;
+      line-height: 32px;
+      /* 100% */
+      letter-spacing: -0.444px;
+  }
+
+  footer p {
+      color: var(--Grey, #49566D);
+      text-align: center;
+      font-feature-settings: 'clig' off, 'liga' off;
+      /* Footer */
+      font-family: Epilogue;
+      font-size: 15px;
+      font-style: normal;
+      font-weight: 400;
+      line-height: 32px;
+      /* 213.333% */
+      letter-spacing: 0.083px;
+  }
+
+  footer .social {
+      height: 20px;
+      flex-shrink: 0;
+      display: flex;
+      gap: 10px;
+      cursor: pointer;
+  }
+
+  /* con-3 ends */
+
+
+
+
+
+
+  /* for tablet */
+  @media only screen and (min-width: 768px) and (max-width: 1114px) {
+      .con-1 {
+          flex-direction: column;
+      }
+
+      .con-1 .left .left-h1 {
+          width: 573px;
+          font-size: 56px;
+          line-height: 64px;
+      }
+
+      .con-1 .left .left-p {
+          width: 350px;
+          font-size: 16px;
+          line-height: 28px;
+      }
+
+      .con-1 .left .left-imgs .curved-line1 {
+          width: 230px;
+          height: 29px;
+          flex-shrink: 0;
+          position: absolute;
+          left: 17.3rem;
+      }
+
+      .con-1 .left .left-imgs .iphone {
+          width: 281px;
+          height: 482px;
+          flex-shrink: 0;
+          position: absolute;
+          right: 66px;
+      }
+
+      .con-1 .right {
+          width: 30%;
+          display: flex;
+          gap: 29px;
+          position: absolute;
+          top: 40rem;
+          right: 27rem;
+      }
+
+      .con-1 .right .com,
+      .lan,
+      .lead {
+          /* width: 223px; */
+          justify-content: space-between;
+          text-align: center;
+          display: flex;
+          /* gap: 29px; */
+      }
+
+      .con-1 .right label {
+          display: flex;
+          justify-content: space-between;
+          text-align: center;
+          position: relative;
+          left: -100px;
+          bottom: -120px;
+          /* width: 223px; */
+      }
+
+      .con-2 {
+          width: 83%;
+          height: 684px;
+          flex-shrink: 0;
+          flex-direction: column;
+          position: absolute;
+          top: 800px;
+
+      }
+
+      .con-2 .man .man-img {
+          width: 252px;
+          height: 402px;
+          flex-shrink: 0;
+          position: absolute;
+          bottom: 460px;
+          left: 30%;
+      }
+
+      .con-2 .man .blur {
+          width: 296px;
+          transition: 0.5;
+          position: absolute;
+          left: 180px;
+          top: -20px;
+      }
+
+      .con-2 .text {
+          display: flex;
+          width: 70%;
+          flex-direction: column;
+          justify-content: center;
+          align-items: center;
+          /* gap: 40px; */
+          position: absolute;
+          top: 17rem;
+          left: 5.7rem;
+      }
+
+      .con-2 .man .curved2 {
+          width: 49.268px;
+          height: 40px;
+          flex-shrink: 0;
+          stroke-width: 2px;
+          stroke: #FAF8F6;
+          position: absolute;
+          top: 275px;
+          left: 280px;
+      }
+
+      .con-2 .text .text-h1 {
+          width: 573px;
+          text-align: center;
+          font-size: 40px;
+          line-height: 48px;
+      }
+
+      .con-2 .text .text-p {
+          width: 573px;
+          text-align: center;
+          font-size: 18px;
+          line-height: 32px;
+      }
+
+      .con-2 .text .text-name1 {
+          text-align: center;
+          font-size: 18px;
+          line-height: 32px;
+      }
+
+      .con-2 .text .text-name2 {
+          width: 190px;
+          text-align: center;
+          font-size: 16px;
+          line-height: 26px;
+      }
+
+      .con-3 {
+          width: 100%;
+          height: 640px;
+          flex-shrink: 0;
+          position: absolute;
+          top: 47rem;
+      }
+
+      footer {
+          width: 83%;
+          height: 32px;
+          flex-shrink: 0;
+          position: absolute;
+          top: 118rem;
+
+      }
+  }
+
+  @media screen and (min-width: 870px) and (max-width: 884px) {
+      .con-1 .top-text .left-h1 {
+          width: 600px;
+      }
+
+      .con-1 .left .left-imgs .iphone {
+          width: 360px;
+          margin-right: 10px;
+      }
+
+      .con-1 .left .left-imgs .curved-line1 {
+          position: absolute;
+          left: 18rem;
+      }
+
+      .con-2 .man .man-img {
+          position: absolute;
+          left: 230px;
+
+      }
+
+      .con-2 .man .blur {
+          position: absolute;
+          left: 220px;
+      }
+
+      .con-2 .man .curved2 {
+          position: absolute;
+          left: 320px;
+      }
+
+      .con-2 .text {
+          position: absolute;
+          left: 6.5rem;
+      }
+  }
+
+  /* microsoft */
+  @media screen and (min-width: 1024px) and (max-width: 1114px) {
+      .con-1 .left .left-h1 {
+          width: 630px;
+          font-size: 72px;
+      }
+
+      .con-1 .left .left-imgs .curved-line1 {
+          width: 288px;
+          height: 36px;
+          margin-left: 100px;
+      }
+
+      .con-1 .left .left-imgs .iphone {
+          width: 470px;
+          height: 500px;
+          flex-shrink: 0;
+          flex-shrink: 0;
+          position: absolute;
+          right: 5.9rem;
+          
+      }
+
+      .con-2 .man .man-img {
+          width: 259px;
+          position: absolute;
+          left: 340px;
+
+      }
+
+      .con-2 .man .blur {
+          position: absolute;
+          left: 320px;
+      }
+
+      .con-2 .man .curved2 {
+          position: absolute;
+          left: 430px;
+      }
+
+      .con-2 .text {
+          position: absolute;
+          left: 8.5rem;
+      }
+  }
+
+
+
+  /* for mobile */
+  @media screen and (min-width: 360px) and (max-width: 430px) {
+
+      main {
+          width: 100%;
+          margin: 40px auto;
+      }
+
+      header {
+          margin: 10px;
+      }
+
+      .con-1 .top-text {
+          margin-left: 10px;
+      }
+
+      header button {
+          width: 182px;
+          height: 48px;
+          flex-shrink: 0;
+          font-size: 14px;
+          line-height: 24px;
+      }
+
+      .con-1 {
+          flex-direction: column;
+      }
+
+      .con-1 .left .top-text .left-h1 {
+          width: 343px;
+          font-size: 40px;
+          line-height: 44px;
+          margin-top: 20px;
+
+      }
+
+      .con-1 .top-text .left-p {
+          width: 343px;
+          font-size: 16px;
+          line-height: 28px;
+          margin-top: 20px;
+
+      }
+
+      .con-1 .top-text button {
+          margin-top: 30px;
+      }
+
+      .con-1 .left .left-imgs .curved-line1 {
+          width: 151px;
+          height: 19px;
+          flex-shrink: 0;
+          position: absolute;
+          top: 140px;
+          left: 168px;
+      }
+
+      .con-1 .left .left-imgs .iphonelan {
+          display: block;
+          width: 94%;
+          height: 240px;
+          flex-shrink: 0;
+          position: absolute;
+          left: 11px;
+          top: 520px;
+      }
+
+      .con-1 .right {
+          position: absolute;
+          right: 10rem;
+          top: 46rem;
+      }
+
+      .right .com {
+        margin-left: 15px;
+      }
+      .right .lan {
+        margin-left: 30px;
+      }
+      .right .lea {
+        margin-left: 25px;
+      }
+
+
+      .con-2 {
+          width: 100%;
+          height: 748px;
+          flex-shrink: 0;
+          position: absolute;
+          top: 70rem;
+      }
+      .con-2 .man {
+        width: 100%;
+      }
+
+      .con-2 .man .man-img {
+          width: 252px;
+          height: 402px;
+          flex-shrink: 0;
+          position: absolute;
+          top: -174px;
+          left: 19%;
+      }
+
+      .con-2 .man .blur {
+          opacity: 0.5;
+          position: absolute;
+          top: -10rem;
+          left: -4rem;
+      }
+
+      .con-2 .man .curved2 {
+          position: absolute;
+          left: 140px;
+          top: 270px;
+      }
+
+      .con-2 .text {
+          width: 100%;
+          position: absolute;
+          top: 280px;
+          left: 5px;
+      }
+
+      .con-2 .text .text-h1 {
+          width: 95%;
+          text-align: center;
+          font-size: 40px;
+          line-height: 48px;
+          margin-left: 3px;
+      }
+
+      .con-2 .text .text-p {
+          width: 95%;
+          text-align: center;
+          font-size: 18px;
+          line-height: 32px;
+          margin-left: 5px;
+      }
+
+      .con-2 .text .text-name1 {
+          width: 95%;
+          text-align: center;
+      }
+
+      .con-2 .text .text-name2 {
+        width: 95%;
+          text-align: center;
+      }
+
+      .con-3 {
+          width: 100%;
+          height: 420px;
+          flex-shrink: 0;
+          position: absolute;
+          top: 93.7rem;
+      }
+
+      footer {
+          width: 100%;
+          display: inline-flex;
+          flex-direction: column;
+          justify-content: center;
+          align-items: center;
+          gap: 33px;
+          position: absolute;
+          top: 145rem;
+      }
+  }
+
+  /* for iphone 5 */
+  @media screen and (max-width: 320px) {
+
+      * {
+          margin: 0;
+          padding: 0;
+          box-sizing: border-box;
+      }
+
+      main {
+          width: 100%;
+          margin: 40px auto;
+      }
+
+      header {
+          margin: 10px;
+      }
+
+      .con-1 .top-text {
+          margin-left: 10px;
+      }
+
+      header button {
+          width: 180px;
+          height: 48px;
+          flex-shrink: 0;
+          font-size: 13px;
+          line-height: 24px;
+      }
+
+      .con-1 {
+          flex-direction: column;
+      }
+
+      .con-1 .top-text {
+          width: 310px;
+      }
+
+      .con-1 .left .left-imgs {
+          position: absolute;
+          left: 14rem;
+      }
+
+      .con-1 .left .top-text .left-h1 {
+          width: 340px;
+          font-size: 37px;
+          line-height: 44px;
+          margin-top: 20px;
+
+      }
+
+      .con-1 .top-text .left-p {
+          width: 315px;
+          font-size: 16px;
+          line-height: 28px;
+          margin-top: 20px;
+
+      }
+
+      .con-1 .top-text button {
+          margin-top: 30px;
+      }
+
+      .con-1 .left .left-imgs .curved-line1 {
+          width: 145px;
+          height: 19px;
+          flex-shrink: 0;
+          position: absolute;
+          top: -10px;
+          left: -75px;
+      }
+
+      .con-1 .left .left-imgs .iphone {
+          width: 300px;
+          height: 240px;
+          flex-shrink: 0;
+          position: absolute;
+          left: -13.4rem;
+          top: 360px;
+      }
+
+      .con-1 .right {
+          position: absolute;
+          right: 9rem;
+          top: 46rem;
+      }
+      .right .com {
+        margin-left: 15px;
+      }
+      .right .lan {
+        margin-left: 30px;
+      }
+      .right .lea {
+        margin-left: 25px;
+      }
+
+      .con-2 {
+          width: 100%;
+          height: 748px;
+          flex-shrink: 0;
+          position: absolute;
+          top: 70rem;
+      }
+
+      .con-2 .man .man-img {
+          width: 250px;
+          height: 402px;
+          flex-shrink: 0;
+          position: absolute;
+          top: -174px;
+          left: 40px;
+      }
+
+      .con-2 .man .blur {
+          width: 200px;
+          height: 200px;
+          opacity: 0.5;
+          position: absolute;
+          top: -1rem;
+          left: 1rem;
+      }
+
+      .con-2 .man .curved2 {
+          position: absolute;
+          left: 125px;
+          top: 270px;
+      }
+
+      .con-2 .text {
+          width: 100%;
+          position: absolute;
+          top: 280px;
+      }
+
+      .con-2 .text .text-h1 {
+          width: 320px;
+          text-align: center;
+          font-size: 40px;
+          line-height: 48px;
+      }
+
+      .con-2 .text .text-p {
+          width: 320px;
+          text-align: center;
+          font-size: 18px;
+          line-height: 32px;
+      }
+
+      .con-2 .text .text-name1 {
+          width: 100%;
+          text-align: center;
+      }
+
+      .con-2 .text .text-name2 {
+          width: 100%;
+          text-align: center;
+          position: absolute;
+      }
+
+      .con-3 {
+          width: 100%;
+          height: 420px;
+          flex-shrink: 0;
+          position: absolute;
+          top: 93.9rem;
+      }
+
+      footer {
+          width: 100%;
+          height: 150px;
+          display: inline-flex;
+          flex-direction: column;
+          justify-content: center;
+          align-items: center;
+          gap: 33px;
+          position: absolute;
+          top: 142rem;
+      }
+
+
+  }
